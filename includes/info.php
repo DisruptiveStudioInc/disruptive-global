@@ -38,6 +38,7 @@
     //-------------------------//
 
     $Lan = ($idioma == 'esp') ? 'esp' : 'eng';
+    $Ver = ($idioma == 'esp') ? 'es' : 'en';
 
 ?>
 

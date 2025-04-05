@@ -36,13 +36,13 @@ $Alert_08 = "¡Datos no permitidos!";
 
 $Hero_01 = "Disruptive Global";
 $Hero_02 = "El ecosistema de innovación que tu negocio necesita";
-$Hero_03 = "Reunimos tecnología, estrategia, talento y visión global para acelerar el crecimiento de<br>empresas con modelos multinivel, fintech, salud, educación, energía y más.";
+$Hero_03 = "Reunimos tecnología, estrategia, talento y visión global para acelerar el crecimiento de tu empresa.";
 
 //-------------------------//
 // About
 //-------------------------//
 
-$About_01 = "Disruptive Global es la fusión estratégica de seis divisiones especializadas que trabajan de forma integrada para escalar tu negocio con tecnología, marketing, talento y soluciones financieras. Somos más que una empresa: somos un ecosistema completo de innovación.";
+$About_01 = "Disruptive Global es la fusión estratégica de ocho divisiones especializadas que trabajan de forma integrada para escalar tu negocio con tecnología, marketing, talento y soluciones financieras. Somos más que una empresa: somos un ecosistema completo de innovación.";
 $About_02 = "Desde software a la medida hasta campañas que generan miles de leads, somos el aliado que conecta todas las piezas para escalar tu negocio de forma ordenada, rápida y rentable.";
 
 //-------------------------//

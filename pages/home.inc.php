@@ -6,20 +6,20 @@
 	<div class="anchor"></div>
     <div class="block-box-bg rel">
     	<span class="scroll">Scroll</span>
-        <picture>
-		    <!--<img class="full-img-abs small-d-none" src="./images/hero/hero.png" alt="Imagen de fondo">
-		    <img class="full-img-abs d-none small-d-block" src="./images/hero/hero_mobile.png" alt="Imagen de fondo">-->
+        <!--<picture>
+		    <img class="full-img-abs small-d-none" src="./images/hero/hero.png" alt="Imagen de fondo">
+		    <img class="full-img-abs d-none small-d-block" src="./images/hero/hero_mobile.png" alt="Imagen de fondo">
 		    <img class="full-img-abs" src="./images/body/gif_2_Global.gif" alt="Imagen de fondo">
-		</picture>
+		</picture>-->
 
         <div class="w-100 ai-center jc-center dh-100">
-            <div class="info t-c mw-1440 small-w-100 p-30-20 fd-col g-20 ai-center">
-				<h2 class="h1 h1-special tc-0"><?php echo $Hero_01; ?></h2>
-				<p class="h3 tc-30"><?php echo $Hero_02; ?></p>
-				<p class="tc-30"><?php echo $Hero_03; ?></p>
-				<a href="#form" class="btn c-pri mt-30"><?php echo $Btn_know; ?></a>
+            <div class="info t-c mw-1440 small-w-100 p-30 fd-col g-30 ai-center all-m-0">
+				<h2 class="h1 h1-special tc-0"><?php echo $Hero_02; ?></h2>
+				<p class="tc-30 mw-1080 p-0 h5"><?php echo $Hero_03; ?></p>
+				<a href="#form" class="btn c-pri"><?php echo $Btn_know; ?></a>
             </div>
         </div>
+        <canvas id="c"></canvas>
     </div>
 </section>
 
@@ -36,7 +36,7 @@
     <div id="tab1">
         <div class="jc-between g-50 small-g-30 small-fd-col ai-center">
             <div class="w-60">
-                <img src="./images/body/eco.jpg" class="br-10" />
+                <img src="./images/body/eco.jpg" class="br-10" alt="<?php echo $Btn_Eco; ?>" />
             </div>
             <div class="w-100">
                 <p><?php echo $About_01; ?></p>
@@ -46,7 +46,7 @@
     <div id="tab2">
         <div class="jc-between g-50 small-g-30 small-fd-col ai-center fd-row-rev">
             <div class="w-60">
-                <img src="./images/body/reach.jpg" class="br-10" />
+                <img src="./images/body/reach.jpg" class="br-10" alt="<?php echo $Btn_Reach; ?>" />
             </div>
             <div class="w-100">
                 <p><?php echo $About_02; ?></p>
@@ -80,7 +80,7 @@
 	        // Imprimimos la lista dos veces para lograr el efecto de loop infinito
 	        for ($i = 0; $i < 2; $i++) {
 	            foreach ($Youtubers_one as $item) {
-	                echo "<li><img loading='lazy' src='images/vertical/{$item[0]}.png' class='img_youtuber' alt='Disruptive {$item[0]}'></li>";
+	                echo "<li><img loading='lazy' src='images/vertical/$Ver/{$item[0]}.png' class='img_youtuber' alt='Disruptive {$item[0]}'></li>";
 	            }
 	        }
 	        ?>
@@ -152,8 +152,8 @@
 	<div class="mw-1440 t-c">
 		<div class="banner z-index-2">
 			<ul>
-		        <li><img src='./images/body/01.png'/></li>
-			    <li><img src='./images/body/02.png'/></li>
+		        <li><img src='./images/body/01.png' alt="contacto disruptive" /></li>
+			    <li><img src='./images/body/02.png' alt="contacto disruptive" /></li>
 			</ul>
 		</div>
 		<a href="#form" class="btn c-pri mt-30 z-index-2"><?php echo $Btn_know; ?></a>

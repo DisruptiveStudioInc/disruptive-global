@@ -36,13 +36,13 @@ $Alert_08 = "Data not allowed!";
 
 $Hero_01 = "Disruptive.Global";
 $Hero_02 = "The innovation ecosystem your business needs";
-$Hero_03 = "We combine technology, strategy, talent, and global vision to accelerate the growth of businesses with multilevel models, fintech, healthcare, education, energy, and more.";
+$Hero_03 = "We bring together technology, strategy, talent, and a global vision to accelerate your company's growth.";
 
 //-------------------------//
 // About
 //-------------------------//
 
-$About_01 = "Disruptive.Global is the strategic fusion of six specialized divisions working together to scale your business with technology, marketing, talent, and financial solutions. We're more than a company: we're a complete innovation ecosystem.";
+$About_01 = "Disruptive.Global is the strategic fusion of eight specialized divisions working together to scale your business with technology, marketing, talent, and financial solutions. We're more than a company: we're a complete innovation ecosystem.";
 $About_02 = "From custom software to campaigns that generate thousands of leads, we're the ally that connects all the pieces to scale your business in an orderly, fast, and profitable way.";
 
 //-------------------------//
@@ -59,17 +59,17 @@ $Solutions_text = "Conoce más pronto";
 $Question_title = "Why Trust Disruptive.Global?";
 $Question_text = "We connect what other companies separate: technology, marketing, talent, and strategy. Our comprehensive approach removes friction, accelerates execution, and maximizes your results.";
 
-$Question_title_01 = "Constant innovation";
-$Question_text_01 = "Siempre estamos explorando nuevas tecnologías, modelos de negocio y metodologías para mantenerte a la vanguardia. No seguimos tendencias, las creamos.";
+$Question_title_01 = "Constant Innovation";
+$Question_text_01 = "We are always exploring new technologies, business models, and methodologies to keep you at the forefront. We don't follow trends; we create them.";
 
-$Question_title_02 = "Integrated solutions";
-$Question_text_02 = "Todas nuestras divisiones trabajan como un solo equipo, bajo una visión centralizada. Evita la fricción de coordinar múltiples provedores.";
+$Question_title_02 = "Integrated Solutions";
+$Question_text_02 = "All our divisions work as one team under a centralized vision. Avoid the friction of coordinating multiple providers.";
 
-$Question_title_03 = "Global focus";
-$Question_text_03 = "Hemos trabajado con empresas en LATAM, Europa y EE.UU. Entendemos la escala, los retos multiculturales y los entornos regulatorios diversos.";
+$Question_title_03 = "Global Focus";
+$Question_text_03 = "We have worked with companies in LATAM, Europe, and the U.S. We understand scale, multicultural challenges, and diverse regulatory environments.";
 
-$Question_title_04 = "Results commitment";
-$Question_text_04 = "Nos medimos por lo que generamos. Cada proyecto es una alianza donde el crecimiento del cliente es el KPI más importante.";
+$Question_title_04 = "Results Commitment";
+$Question_text_04 = "We measure ourselves by what we generate. Each project is a partnership where the client's growth is the most important KPI.";
 
 //-------------------------//
 // Contact
