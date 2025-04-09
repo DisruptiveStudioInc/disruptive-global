@@ -7,8 +7,8 @@
     <div class="block-box-bg rel">
     	<span class="scroll">Scroll</span>
         <!--<picture>
-		    <img class="full-img-abs small-d-none" src="./images/hero/hero.png" alt="Imagen de fondo">
-		    <img class="full-img-abs d-none small-d-block" src="./images/hero/hero_mobile.png" alt="Imagen de fondo">
+		    <img class="full-img-abs small-d-none" src="./images/hero/hero.webp" alt="Imagen de fondo">
+		    <img class="full-img-abs d-none small-d-block" src="./images/hero/hero_mobile.webp" alt="Imagen de fondo">
 		    <img class="full-img-abs" src="./images/body/gif_2_Global.gif" alt="Imagen de fondo">
 		</picture>-->
 
@@ -36,7 +36,7 @@
     <div id="tab1">
         <div class="jc-between g-50 small-g-30 small-fd-col ai-center">
             <div class="w-60">
-                <img src="./images/body/eco.jpg" class="br-10" alt="<?php echo $Btn_Eco; ?>" />
+                <img src="./images/body/eco.webp" class="br-10" alt="<?php echo $Btn_Eco; ?>" />
             </div>
             <div class="w-100">
                 <p><?php echo $About_01; ?></p>
@@ -46,7 +46,7 @@
     <div id="tab2">
         <div class="jc-between g-50 small-g-30 small-fd-col ai-center fd-row-rev">
             <div class="w-60">
-                <img src="./images/body/reach.jpg" class="br-10" alt="<?php echo $Btn_Reach; ?>" />
+                <img src="./images/body/reach.webp" class="br-10" alt="<?php echo $Btn_Reach; ?>" />
             </div>
             <div class="w-100">
                 <p><?php echo $About_02; ?></p>
@@ -80,7 +80,7 @@
 	        // Imprimimos la lista dos veces para lograr el efecto de loop infinito
 	        for ($i = 0; $i < 2; $i++) {
 	            foreach ($Youtubers_one as $item) {
-	                echo "<li><img loading='lazy' src='images/vertical/$Ver/{$item[0]}.png' class='img_youtuber' alt='Disruptive {$item[0]}'></li>";
+	                echo "<li><img loading='lazy' src='images/vertical/$Ver/{$item[0]}.webp' class='img_youtuber' alt='Disruptive {$item[0]}'></li>";
 	            }
 	        }
 	        ?>
@@ -98,7 +98,7 @@
 			<div class="mano">
 				<h1 class="tc-pri h1 fw-700"><?php echo $Question_title; ?></h1>
 				<p class='tc-80'><?php echo $Question_text; ?></p>
-				<img src="./images/body/mano.png" alt="mano"/>
+				<img src="./images/body/mano.webp" alt="mano"/>
 			</div>
 		</div>
 		<div class="w-100">
@@ -152,8 +152,8 @@
 	<div class="mw-1440 t-c">
 		<div class="banner z-index-2">
 			<ul>
-		        <li><img src='./images/body/01.png' alt="contacto disruptive" /></li>
-			    <li><img src='./images/body/02.png' alt="contacto disruptive" /></li>
+		        <li><img src='./images/body/01.webp' alt="contacto disruptive" /></li>
+			    <li><img src='./images/body/02.webp' alt="contacto disruptive" /></li>
 			</ul>
 		</div>
 		<a href="#form" class="btn c-pri mt-30 z-index-2"><?php echo $Btn_know; ?></a>

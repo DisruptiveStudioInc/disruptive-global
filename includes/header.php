@@ -44,9 +44,9 @@
     <link rel="stylesheet" type="text/css" href="./css/min/main.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/min/root.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="./css/body/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/body/navigation.css" />
-    <link rel="stylesheet" type="text/css" href="./css/body/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/body/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/body/navigation.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/body/slick.min.css" />
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
