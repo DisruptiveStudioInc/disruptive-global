@@ -8,7 +8,7 @@
 		    <div class="mw-1440">
 		        <div class="jc-between med-fd-col ai-center fd-row-rev">
 		            <div class="w-40 med-w-100 jc-end small-mb-30">
-		                <img src="./images/logo/logo2.svg" class="mw-200 med-m-center">
+		                <img loading='lazy' src="./images/logo/logo2.svg" class="mw-200 med-m-center" alt="logo disruptive">
 		            </div>
 		            <div class="w-40 med-w-100 jc-start g-40 all-m-0 small-fd-col small-jc-center small-w-100">
 		            	<div class="fd-col g-0">
@@ -18,7 +18,7 @@
 		            	</div>
 		                <div class="g-10 fd-col g-0">
 		                	<h3 class="h4 tc-0 small-tc"><?php echo $Contact_Follow; ?></h3>
-		                    <a target="_blank" href="https://www.instagram.com/disruptive.global/" class="btn v-white icon small br-2 icon-instagram"></a>
+		                    <a target="_blank" href="https://www.instagram.com/disruptive.global/" class="btn v-white icon small br-2 icon-instagram"><span class="sr-only">Síguenos en Instagram</span></a>
 		                </div>
 		            </div>
 		        </div>

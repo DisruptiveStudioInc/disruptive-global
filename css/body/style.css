@@ -51,8 +51,6 @@ p,li,a,body,pre,label{  font-weight: 400;  }
 h1,h2,h3,h4,h5,h6    {  font-weight: 600;  }
 b                    {  font-weight: 600;  }
 
-
-
 /* ============================================== */
 /* PRELOADER */
 /* ============================================== */
@@ -165,6 +163,22 @@ img.bola{
   right: 120%;
   top:50%;
   background: var(--color-pri);
+}
+
+/* ============================================== */
+/* SR */
+/* ============================================== */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* ============================================== */

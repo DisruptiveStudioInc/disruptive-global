@@ -36,7 +36,7 @@
     <div id="tab1">
         <div class="jc-between g-50 small-g-30 small-fd-col ai-center">
             <div class="w-60">
-                <img src="./images/body/eco.webp" class="br-10" alt="<?php echo $Btn_Eco; ?>" />
+                <img loading='lazy' src="./images/body/eco.webp" class="br-10" alt="<?php echo $Btn_Eco; ?>" />
             </div>
             <div class="w-100">
                 <p><?php echo $About_01; ?></p>
@@ -98,7 +98,7 @@
 			<div class="mano">
 				<h1 class="tc-pri h1 fw-700"><?php echo $Question_title; ?></h1>
 				<p class='tc-80'><?php echo $Question_text; ?></p>
-				<img src="./images/body/mano.webp" alt="mano"/>
+				<img loading='lazy' src="./images/body/mano.webp" alt="mano"/>
 			</div>
 		</div>
 		<div class="w-100">
@@ -152,8 +152,8 @@
 	<div class="mw-1440 t-c">
 		<div class="banner z-index-2">
 			<ul>
-		        <li><img src='./images/body/01.webp' alt="contacto disruptive" /></li>
-			    <li><img src='./images/body/02.webp' alt="contacto disruptive" /></li>
+		        <li><img loading='lazy' src='./images/body/01.webp' alt="contacto disruptive" /></li>
+			    <li><img loading='lazy' src='./images/body/02.webp' alt="contacto disruptive" /></li>
 			</ul>
 		</div>
 		<a href="#form" class="btn c-pri mt-30 z-index-2"><?php echo $Btn_know; ?></a>
