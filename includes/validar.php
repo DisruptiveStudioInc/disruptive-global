@@ -6,15 +6,18 @@ require 'phpmailer/Exception.php';
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/SMTP.php';
 
+// Establecer el tiempo del formulario solo si no está establecido
 if (!isset($_SESSION['form_time'])) {
     $_SESSION['form_time'] = time();
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     if (!empty($_POST['honeypot'])) {
         die('<p class="warning">' . $Alert_08 . '</p>');
     }
 
+    // Verificar tiempo mínimo de llenado (evita bots rápidos)
     if (time() - $_SESSION['form_time'] < 5) { 
         die('<p class="warning">' . $Alert_08 . '</p>');
     }
@@ -40,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
-            $mail->setFrom('test@disruptivetest.com', 'Disruptive Global');
+            $mail->setFrom('test@disruptivetest.com', 'Disruptive GLOBAL');
             $mail->addAddress('socialmedia@disruptive.com', 'Destinatario');
             $mail->addReplyTo($data['email'], $data['nombre']);
 
@@ -48,6 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->Subject = 'Nuevo correo desde el sitio web de DISRUPTIVE GLOBAL';
 
             // Eliminar enlaces sospechosos en comentarios
+            $data['comentario'] = htmlspecialchars($data['comentario'], ENT_QUOTES, 'UTF-8');
             $data['comentario'] = preg_replace('/(https?:\/\/|www\.)/i', '', $data['comentario']);
 
             $mail->Body = "
@@ -61,9 +65,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             session_unset();
             $_SESSION['form_time'] = time();
             echo '<script>
-                setTimeout(() => {
-                    document.getElementById("form").scrollIntoView({ behavior: "smooth", block: "start" });
-                }, 500);
+                const formSection = document.getElementById("form");
+                window.scrollTo({
+                    top: formSection.offsetTop - 20,
+                    behavior: "smooth"
+                });
             </script>';
         } catch (Exception $e) {
             echo "<p class='warning'>" . $Alert_07 . " Error: " . $mail->ErrorInfo . "</p>";
@@ -75,9 +81,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         echo '</div>';
         echo '<script>
-                setTimeout(() => {
-                    document.getElementById("form").scrollIntoView({ behavior: "smooth", block: "start" });
-                }, 500);
+                const formSection = document.getElementById("form");
+                window.scrollTo({
+                    top: formSection.offsetTop - 20,
+                    behavior: "smooth"
+                });
             </script>';
     }
 }
@@ -106,4 +114,5 @@ function validarFormulario($data) {
 
     return $errores;
 }
+
 ?>
