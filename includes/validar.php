@@ -41,8 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->Port = 465;
 
             $mail->setFrom('test@disruptivetest.com', 'Disruptive Global');
-            $mail->addAddress('contacto@disruptive.global', 'Destinatario');
-            $mail->addBCC('fidrac@disruptive.studio');
+            $mail->addAddress('socialmedia@disruptive.com', 'Destinatario');
+            $mail->addReplyTo($data['email'], $data['nombre']);
 
             $mail->isHTML(true);
             $mail->Subject = 'Nuevo correo desde el sitio web de DISRUPTIVE GLOBAL';
